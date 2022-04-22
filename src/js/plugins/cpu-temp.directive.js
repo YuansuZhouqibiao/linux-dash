@@ -5,7 +5,7 @@ angular.module('linuxDash').directive('cpuTemp', ['server', function(server) {
     template: ' \
       <line-chart-plugin \
 \
-        heading="CPU temp" \
+        heading="CPU温度" \
         module-name="cpu_temp" \
         color="0,255,0" \
 \
