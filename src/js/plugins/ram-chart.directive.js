@@ -5,7 +5,7 @@ angular.module('linuxDash').directive('ramChart', ['server', function (server) {
     template: '\
       <line-chart-plugin \
 \
-          heading="RAM Usage" \
+          heading="内存使用详情" \
           module-name="current_ram" \
           color="0,255,0" \
 \
