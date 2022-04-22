@@ -4,7 +4,7 @@ angular.module('linuxDash').directive('cpuAvgLoadChart', ['server', function(ser
     scope: {},
     template: '\
       <multi-line-chart-plugin \
-          heading="CPU Avg Load" \
+          heading="CPU平均负载" \
           module-name="load_avg" \
           units="units"> \
       </multi-line-chart-plugin> \
